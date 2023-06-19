@@ -1,0 +1,11 @@
+@each $key, $size in $font-sizes {
+    .fs-#{$key} {
+        font-size: #{$size};
+    }
+}
+
+@each $key, $size in $display-font-sizes {
+    .display-#{$key} {
+        font-size: #{$size};
+    }
+}
