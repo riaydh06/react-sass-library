@@ -3,14 +3,14 @@
   "version": "1.0.2",
   "description": "",
   "scripts": {
-    "build": "rollup -c --bundleConfigAsCjs",
+    "build": "rollup -c --bundleConfigAsCjs && cp -r ./src/styles ./build/styles/scss && sass --no-source-map --style=compressed src/styles:build/styles/css",
     "test": "jest",
     "test:watch": "jest --watch",
     "prepublishOnly": "npm run build",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "sass-dev": "sass --watch --update --style=expanded src/styles:build/styles",
-    "sass-prod": "sass --no-source-map --style=compressed src/styles:build/styles"
+    "sass-dev": "sass --watch --update --style=expanded src/styles:build/styles/css",
+    "sass-prod": "sass --no-source-map --style=compressed src/styles:build/styles/css"
   },
   "author": "",
   "license": "ISC",

@@ -1,0 +1,43 @@
+$base-font-size: 1rem !default;
+
+$grid-columns: 12;
+
+$breakpoints: (
+  "xs": 375,
+  "sm": 480px,
+  "md": 720px,
+  "lg": 960px,
+  "xl": 1200px,
+);
+
+$spacer: 1rem;
+$spacers: (
+  "auto": auto,
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 5,
+  7: $spacer * 6,
+);
+
+$display-font-sizes: (
+  "2xl": $base-font-size * 4.5,
+  "xl": $base-font-size * 3.75,
+  "lg": $base-font-size * 3,
+  "md": $base-font-size * 2.25,
+  "sm": $base-font-size * 1.875,
+  "xs": $base-font-size * 1.5,
+);
+
+$font-sizes: (
+  "xl": $base-font-size * 1.25,
+  "lg": $base-font-size * 1.125,
+  "md": $base-font-size * 1,
+  "sm": $base-font-size * 0.875,
+  "xs": $base-font-size * 0.75,
+);
+
+$primary: red;
