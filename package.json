@@ -1,6 +1,6 @@
 {
-  "name": "react-sass-library",
-  "version": "1.0.3",
+  "name": "react-test-ui-library",
+  "version": "1.0.0",
   "description": "",
   "scripts": {
     "build": "rollup -c --bundleConfigAsCjs",
