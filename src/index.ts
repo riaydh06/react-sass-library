@@ -1,2 +1,2 @@
-export { default as TestComponent } from './TestComponent/TestComponent';
-export { default as Button } from './Button';
+export { default as TestComponent } from './molecules/TestComponent/TestComponent';
+export { default as Button } from './atoms/button';
